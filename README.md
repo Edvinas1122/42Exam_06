@@ -6,6 +6,7 @@
 you gonna have some code given to you, nest it into
 
   1.1 int openPortSocket(char const *port)
+  
   1.2 int acceptConncetion/*or Client*/(const int socket)
 
 2. make debug related helper functions and error exit function
@@ -29,12 +30,18 @@ you gonna have some code given to you, nest it into
 7. start implamenting client messageHandling(connectionstructure, incomingdfset, outgoingfdset)
 
   7.1 create funnction distributeMessages(connection, alldata)
+  
   7.2 implament proper recv in it and print output into terminal.
+  
   7.3 implament closing connection
+  
   7.4 informOthers about the client disconected
+  
 
 8. create function that do actually distribute received messages-> called from distributeMessages like splitSend it helps to wrap message in a required format
 
   8.1 sendToOthersTheMessage.
+  
   8.2 implament message format
+  
   8.3 implament newline and no newlinehandling
