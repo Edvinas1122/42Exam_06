@@ -17,6 +17,8 @@ you gonna have some code given to you, nest it into
 
 4. make datastructure and methods of handling of datastructure, you need to be able to add filedescriptors to your structure. also ID
 
+	4.1 debug memoryleaks
+
 5. update select with a method that finds bigest FD, do add into data new accepted connections
  
 	5.1 make a method that resets observation instructions for select
